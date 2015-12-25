@@ -21,20 +21,15 @@ $(document).ready(function(){
   });
 
   $('#arrow').localScroll({duration:800, offset: -50});
-  
   $('#aboutscroll').localScroll({duration:800, offset: -50});
-  
   $('#adaptscroll').localScroll({duration:800, offset: -50});
-  
   $('#projectscroll').localScroll({duration:800, offset: -50});
-  
   $('#vizscroll').localScroll({duration:800, offset: -50});
- 
   $('#csscroll').localScroll({duration:800, offset: -50}); 
-  
   $('#columnscroll').localScroll({duration:800, offset: -50}); 
- 
-  $('#photoscroll').localScroll({duration:800, offset: -50});   
+  $('#photoscroll').localScroll({duration:800, offset: -50});
+  $('#photomescroll').localScroll({duration:800, offset: -50}); 
+  $('#photobymescroll').localScroll({duration:800, offset: -50});  
 
   $(function () {
     $("#arrow")

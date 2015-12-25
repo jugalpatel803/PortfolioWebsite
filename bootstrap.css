@@ -252,6 +252,11 @@ article {
     #arrow {
         margin-top: 200px !important;
     }
+    
+    #video {
+        width: 340px;
+        height: 400px;
+    }
 
     
    

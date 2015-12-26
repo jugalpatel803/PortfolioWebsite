@@ -47,7 +47,7 @@ $(document).ready(function(){
           });
       }); 
   });
-  
+    
   var video = document.getElementById("video");
   function checkScroll() {
     var fraction = 0.8;

@@ -20,16 +20,16 @@ $(document).ready(function(){
           .animate({"opacity": "1"}, 1200);
   });
 
-  $('#arrow').localScroll({duration:800, offset: -50});
-  $('#aboutscroll').localScroll({duration:800, offset: -50});
-  $('#adaptscroll').localScroll({duration:800, offset: -50});
-  $('#projectscroll').localScroll({duration:800, offset: -50});
-  $('#vizscroll').localScroll({duration:800, offset: -50});
-  $('#csscroll').localScroll({duration:800, offset: -50}); 
-  $('#columnscroll').localScroll({duration:800, offset: -50}); 
-  $('#photoscroll').localScroll({duration:800, offset: -50});
-  $('#photomescroll').localScroll({duration:800, offset: -50}); 
-  $('#photobymescroll').localScroll({duration:800, offset: -50});  
+  $('#arrow').localScroll({duration:1200, offset: -50});
+  $('#aboutscroll').localScroll({duration:1200, offset: -50});
+  $('#adaptscroll').localScroll({duration:1200, offset: -50});
+  $('#projectscroll').localScroll({duration:1200, offset: -50});
+  $('#vizscroll').localScroll({duration:1200, offset: -50});
+  $('#csscroll').localScroll({duration:1200, offset: -50}); 
+  $('#columnscroll').localScroll({duration:1200, offset: -50}); 
+  $('#photoscroll').localScroll({duration:1200, offset: -50});
+  $('#photomescroll').localScroll({duration:1200, offset: -50}); 
+  $('#photobymescroll').localScroll({duration:1200, offset: -50});  
 
   $(function () {
     $("#arrow")

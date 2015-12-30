@@ -1,3 +1,5 @@
+// LANDING INITIAL
+
 $(document).ready(function(){
     "use strict";
     
@@ -20,6 +22,8 @@ $(document).ready(function(){
           .animate({"opacity": "1"}, 1200);
   });
 
+// SCROLL FUNCTIONALITY    
+    
   $('#arrow').localScroll({duration:1200, offset: -50});
   $('#aboutscroll').localScroll({duration:1200, offset: -50});
   $('#adaptscroll').localScroll({duration:1200, offset: -50});
@@ -31,6 +35,8 @@ $(document).ready(function(){
   $('#photomescroll').localScroll({duration:1200, offset: -50}); 
   $('#photobymescroll').localScroll({duration:1200, offset: -50});  
 
+// LANDING ARROW    
+    
   $(function () {
     $("#arrow")
       .animate({"opacity": "1"}, 2000)
@@ -50,28 +56,30 @@ $(document).ready(function(){
     
 // INTERACTIVES VIDEO AUTOPLAY
     
-  var video = document.getElementById("video");
+ var videos = document.getElementsByClassName("projectvids"); //class name of videos in quotes
+  var fraction = 0.8;
   function checkScroll() {
-    var fraction = 0.8;
-    var x = video.offsetLeft, y = video.offsetTop, w = video.offsetWidth, h = video.offsetHeight, r = x + w, //right
-      b = y + h, //bottom
-      visibleX, visibleY, visible;
+    for(var i = 0; i < videos.length; i++) {
+      var video = videos[i];
+      var x = video.offsetLeft, y = video.offsetTop, w = video.offsetWidth, h = video.offsetHeight, r = x + w, //right
+        b = y + h, //bottom
+        visibleX, visibleY, visible;
 
-      visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
-      visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
+        visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
+        visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
 
-      visible = visibleX * visibleY / (w * h);
+        visible = visibleX * visibleY / (w * h);
 
-      if (visible > fraction) {
-        $('#video').get(0).play()
-      } else {
-          $('#video').get(0).pause()
-        }
+        if (visible > fraction) {
+          video.play();
+        } else {
+          video.pause();
+          }
+    }
   }
 
   window.addEventListener('scroll', checkScroll, false);
   window.addEventListener('resize', checkScroll, false);
-});
 
 // MODAL WINDOW
 

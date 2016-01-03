@@ -193,6 +193,10 @@ article {
         margin-top: -10px;
         margin-left: 130px;
     }
+    
+    .navbar-social {
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 400px) {
@@ -216,6 +220,11 @@ article {
         width: 340px;
         height: 400px;
     }
-
+    
+    .navbar-social {
+        margin-right: 170px;
+        
+    }    
+}
     
    

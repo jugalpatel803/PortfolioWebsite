@@ -222,13 +222,12 @@ article {
     }
     
     .navbar-social {
-        margin-right: 175px;
+        margin-right: 185px;
         
     }
     
     .bgimage {
     background-image: url(images/Websitebgmobile.jpg);
-    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     height: 568px;

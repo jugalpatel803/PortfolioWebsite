@@ -199,7 +199,7 @@ article {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .bgimage h1 {
         font-size: 3.2em;
         margin-left: 10px;
@@ -222,9 +222,17 @@ article {
     }
     
     .navbar-social {
-        margin-right: 170px;
+        margin-right: 175px;
         
-    }    
+    }
+    
+    .bgimage {
+    background-image: url(images/Websitebgmobile.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 568px;
+    margin-top: -20px;
+}
 }
     
-   

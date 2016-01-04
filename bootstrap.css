@@ -231,6 +231,7 @@ article {
     background-attachment: fixed;
     height: 568px;
     margin-top: -20px;
-}
+    background-repeat: no-repeat;
+    }
 }
     

@@ -229,7 +229,7 @@ article {
     .bgimage {
     background-image: url(images/Websitebgmobile.jpg);
     background-attachment: fixed;
-    background-size: auto;
+    background-size: contain;
     margin-top: -20px;
     background-repeat: no-repeat;
     }

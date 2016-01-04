@@ -222,14 +222,14 @@ article {
     }
     
     .navbar-social {
-        margin-right: 185px;
+        margin-right: 190px;
         
     }
     
     .bgimage {
     background-image: url(images/Websitebgmobile.jpg);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     margin-top: -20px;
     background-repeat: no-repeat;
     }

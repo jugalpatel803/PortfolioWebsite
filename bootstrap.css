@@ -112,10 +112,19 @@ article {
 .link5 {
     position: absolute;
     width: 100%;
+    height: 110px;
+    z-index: 30;
+    margin-top: -20px;
+}
+
+.link6 {
+    position: absolute;
+    width: 100%;
     height: 191px;
     z-index: 30;
     margin-top: -20px;
 }
+
 
     .adaptstory1:hover {
         background: lightgray;
@@ -168,6 +177,16 @@ article {
     }
 
     .projectstory3:hover {
+        background: lightgray;
+        opacity:0.75;
+    }
+
+    .projectstory4:hover {
+        background: lightgray;
+        opacity:0.75;
+    }
+
+    .projectstory5:hover {
         background: lightgray;
         opacity:0.75;
     }

@@ -183,10 +183,6 @@ article {
     margin: 0 auto;
 }
 
-<!-----------------Media Styles ------------------->
-
-
-
 @media (max-width: 600px) {    
     .bgimage h1 {
         font-size: 4.5em;

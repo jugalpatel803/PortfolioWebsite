@@ -115,7 +115,7 @@ $(function(){
 
 function setHalfVolume() {
     var vid = document.getElementById("myVideo");  
-    vid.volume = 0.1;
+    vid.volume = 0;
 } 
 
 

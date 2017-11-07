@@ -64,6 +64,8 @@ h3 {
 
 h5 {
     color: white;
+    display: block;
+    margin: 0 auto;
     max-width: 75%;
     text-align: center;
     margin-top: 20px;
